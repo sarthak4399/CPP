@@ -6,6 +6,7 @@
         "ostream": "cpp",
         "unordered_map": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "sstream": "cpp"
     }
 }
