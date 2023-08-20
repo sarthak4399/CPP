@@ -1,0 +1,53 @@
+Notes On classes and objects in C++:
+
+1. **Classes and Objects:**
+   - Classes are user-defined data types that encapsulate data (attributes) and functions (methods) that operate on the data.
+   - Objects are instances of classes. They represent specific instances of the class and hold their own unique data.
+
+2. **Defining a Class:**
+   - A class is defined using the `class` keyword followed by the class name and a block containing member variables and functions.
+   - Member variables (attributes) are the data that belong to the class.
+   - Member functions (methods) are the operations that can be performed on the class's data.
+
+3. **Access Modifiers:**
+   - C++ provides three access modifiers: `public`, `private`, and `protected`.
+   - `public`: Members are accessible from outside the class.
+   - `private`: Members are only accessible from within the class.
+   - `protected`: Similar to `private`, but accessible by derived classes as well.
+
+4. **Creating Objects:**
+   - Objects are created using the class as a blueprint. They occupy memory and can hold values for member variables.
+   - Syntax: `ClassName objectName;`
+
+5. **Constructors:**
+   - Constructors are special member functions used to initialize objects when they are created.
+   - Default constructor has no parameters. Parameterized constructors can be defined to initialize member variables.
+
+6. **Destructors:**
+   - Destructors are special member functions used to clean up resources when an object goes out of scope.
+   - Syntax: `~ClassName();`
+
+7. **Member Functions:**
+   - Functions defined within a class are called member functions or methods.
+   - They can access and modify member variables.
+   - Member functions can be defined within the class declaration or outside it using the scope resolution operator `::`.
+
+8. **Encapsulation:**
+   - Encapsulation is the concept of bundling data and methods that operate on the data within a single unit (class).
+   - It helps in hiding the implementation details and providing a clear interface for interactions.
+
+9. **Inheritance:**
+   - Inheritance allows a class (derived class) to inherit properties and behaviors from another class (base class).
+   - Derived classes can add new features or override existing ones from the base class.
+
+10. **Polymorphism:**
+    - Polymorphism allows objects of different classes to be treated as objects of a common base class.
+    - It enables function overloading and method overriding.
+
+11. **Accessing Members:**
+    - Public members can be accessed directly using the object's name.
+    - Private members can be accessed using public member functions.
+
+12. **Namespace and Scope:**
+    - Namespace helps prevent naming conflicts by grouping related classes, functions, and variables.
+    - The scope resolution operator `::` is used to access members in a specific namespace or class.
